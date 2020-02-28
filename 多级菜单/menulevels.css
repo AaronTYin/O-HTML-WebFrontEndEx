@@ -32,17 +32,15 @@ body {
 	float: none;	/* 列表纵排显示 */
 	border: thin solid black;
 	border-top: 0px;
+	background-color: red;
 }
 .menuDiv>ul>li>ul>li>ul>li {
-	border: thin solid black;
+	/*border: thin solid black;*/
 	border-top: 0;
 	position: relative;
     left: 86px;
 	top: -20px;
-}
-.menuDiv>ul>li>ul>li>ul>li:first-child {
-	border: thin solid black;
-	border-left: 0;
+	background-color: yellow;
 }
 
 /* 鼠标放在一二级菜单上，显示二三级菜单 */
